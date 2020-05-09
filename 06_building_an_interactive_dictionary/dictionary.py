@@ -1,7 +1,8 @@
 import json
 from difflib import get_close_matches
 
-data = json.load(open("data.json"))
+with open("data.json") as file:
+    data = json.load(file)
 
 
 def close_matches(w):

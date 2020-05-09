@@ -43,14 +43,18 @@ def define(w):
         return "The word doesn't exist. Please double check it."
 
 
-sentence = "Enter word: "
+sentence = "Enter a word or 0 to exit: "
 print('=' * len(sentence))
-word = input(sentence)
-output = define(word)
-if type(output) == list:
-    for item in output:
-        print('=' * len(item))
-        print(item)
-else:
-    print('=' * len(output))
-    print(output)
+while True:
+    word = input(sentence)
+    if word == '0':
+        print('Program End, Thank you for using Our Dictionary App.')
+        break
+    output = define(word)
+    if type(output) == list:
+        for i, item in enumerate(output, 1):
+            print('=' * len(item))
+            print(f"{i} - {item}")
+    else:
+        print('=' * len(output))
+        print(output)

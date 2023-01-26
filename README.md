@@ -1,11 +1,12 @@
 # beginner_python_projects
-In this repository, there are several python projects for beginners. 
 
+In this repository, there are several python projects for beginners.
 
-# TODO: 
+## TODO
+
 Add list of each project with description
 
-# Projects list
+## Projects list
 
 1. Quiz Game
 2. Number Game

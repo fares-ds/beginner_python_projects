@@ -7,6 +7,22 @@ In this project, you will learn how to:
 - Interact with user in the terminal
 - How to use python dictionary objects
 
+Here is a step-by-step guide for a beginner to implement similar code:
+
+1. Import the random library.
+2. Create a dictionary that contains the feature as the key and its inventor as the value.
+3. Initialize a mark variable to keep track of the user's score and set it to 0.
+4. Convert the dictionary keys into a list and shuffle it randomly.
+5. Use a for loop to iterate over the random list of questions.
+6. Print the question to the user and create a list of choices.
+7. Shuffle the list of choices and add the right answer to it.
+8. Print the list of choices to the user.
+9. Take the user's answer as input.
+10. Evaluate the user's answer by checking if it matches the right answer.
+11. Update the mark variable based on the evaluation.
+12. Repeat steps 5-11 for all questions in the random list.
+13. Print the user's final score at the end.
+
 ## Project Description
 
 We have a python dictionary of `10` scientist as keys and there inventions as values:
